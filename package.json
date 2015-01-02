@@ -1,0 +1,32 @@
+{
+  "name": "flyte",
+  "version": "0.0.0",
+  "description": "queue http requests for multi-processing",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martindale/flyte.git"
+  },
+  "keywords": [
+    "http",
+    "queue",
+    "worker",
+    "mongo",
+    "gridfs"
+  ],
+  "author": "Eric Martindale",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martindale/flyte/issues"
+  },
+  "homepage": "https://github.com/martindale/flyte",
+  "dependencies": {
+    "gridfs-stream": "^0.5.3"
+  }
+}
